@@ -25,34 +25,6 @@ This project implements a **Decision Tree classifier from scratch** for detectin
 - ✅ **Performance Metrics** - Comprehensive accuracy, precision, recall, and F1-score analysis
 - ✅ **Adaptive Learning** - Enhanced with pattern recognition for new fraud types
 
-## 🗂️ Project Structure
-
-fraud-detection-decision-tree/
-│
-├── data/
-│   └── onlinefraud.csv          # Dataset containing transaction records
-│
-├── src/
-│   ├── decision_tree.py         # Core decision tree implementation
-│   ├── entropy_tree.py          # Entropy-based decision tree
-│   ├── gini_tree.py            # Gini index-based decision tree
-│   ├── preprocessing.py         # Data preprocessing and discretization
-│   ├── evaluation.py           # Model evaluation metrics
-│   └── visualization.py        # Tree visualization utilities
-│
-├── notebooks/
-│   ├── data_analysis.ipynb     # Exploratory data analysis
-│   └── model_comparison.ipynb  # Comparison of Entropy vs Gini
-│
-├── results/
-│   ├── tree_visualizations/    # Generated tree visualizations
-│   ├── performance_metrics/    # Model performance reports
-│   └── cross_validation/       # Cross-validation results
-│
-├── requirements.txt            # Project dependencies
-└── README.md                  # This file
-
-
 ## 📊 Dataset Description
 
 The `onlinefraud.csv` dataset contains the following features:
